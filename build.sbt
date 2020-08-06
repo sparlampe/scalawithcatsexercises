@@ -4,6 +4,7 @@ version := "0.0.1-SNAPSHOT"
 scalaVersion := "2.13.1"
 
 libraryDependencies += "org.typelevel" %% "cats-core" % "2.0.0"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.8"
 
 // scalac options come from the sbt-tpolecat plugin so need to set any here
 
